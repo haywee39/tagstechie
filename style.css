@@ -155,8 +155,9 @@
     /* &&&&&&&&&&&&&&&&&&&&& */
     /* STYLING FOR HOME BEGINS HERE  */
     .home{
-      width: 95%;
+      width: 100%;
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       color: white;
@@ -164,10 +165,11 @@
     }
 
     .home-content{
-      max-width: 650px;
+      width: 100%;
+      height: 100%;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      /* flex-direction: column; */
+      justify-content: space-evenly;
       align-items: center;
       /* background-color: red; */
     }
@@ -177,7 +179,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 100%;
+      width: 50%;
       margin-bottom: 20px;
       /* background-color: palegreen; */
     }
@@ -195,10 +197,6 @@
 
 
 /* *******************8 */
-  /* .brief h1{
-    position: relative;
-    font-size: 50px;
-  } */
   .brief h1 span{
     position: relative;
     font-size: 50px;
