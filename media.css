@@ -1,16 +1,27 @@
-@media (width < 768px) {
+/* @media (width < 768px) { */
+  @media (width < 768px) {
 
+  
   /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
    /* Override for pages with long content (pages other than the welcome page) */
-   .page:not(#page2) {
-    align-items: flex-start; /* Align content to the top */
-    justify-content: center; /* You can leave horizontal centering if desired */
-    }
+   /* .page:not(#page2) {
+    align-items: flex-start; Align content to the top 
+    justify-content: center;  You can leave horizontal centering if desired 
+    } */
    
     /* Content over video */
   .content {
-      width: 100vw;
-      /* background-color: yellow; */
+        position: relative;
+        display: flex;
+        width:100vw;
+        align-items: center;
+        justify-content: center;
+        z-index: 2;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        /* background-color: yellow; */
+      }
     }
 
     .home{
@@ -26,20 +37,6 @@
       height: auto;
       /* width: 100vw; */
       /* background-color: red; */
-    }
-
-    .brief{
-      background-color: green;
-    }
-    .brief h1{
-      font-size: 40px;
-    }
-    .brief h3{
-      font-size: 30px;
-    }
-    .btn-box a{
-      width: 130px;
-      height: 60%;
     }
 
     .page {
