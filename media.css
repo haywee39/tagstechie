@@ -24,6 +24,11 @@
         /* background-color: yellow; */
       }
     }
+    .page {
+      height: 100vh;
+      padding: 20px;
+      margin: 0;
+    }
 
     .home{
       width: 100%;
@@ -57,11 +62,7 @@
       width: 65%;
     }
 
-    .page {
-      height: 100vh;
-      padding: 20px;
-      margin: 0;
-    }
+   
 /* ***************************** */
     /* ABOUT SECTION  */
   .me{
@@ -72,7 +73,7 @@
   
   .me p{
     padding: 10px;
-    width: 100%;
+    width:90%;
     line-height: 20px;
     /* background-color: red; */
   }
