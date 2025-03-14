@@ -1,0 +1,96 @@
+@media (width < 768px) {
+
+  /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+   /* Override for pages with long content (pages other than the welcome page) */
+   .page:not(#page2) {
+    align-items: flex-start; /* Align content to the top */
+    justify-content: center; /* You can leave horizontal centering if desired */
+    }
+   
+    /* Content over video */
+  .content {
+      width: 100vw;
+      /* background-color: yellow; */
+    }
+
+    .home{
+      width: 100%;
+      display: flex;
+      height: auto;
+      flex-direction: column;
+      /* background-color: purple; */
+    }
+
+    .home-content{
+      max-width: 100%;
+      height: auto;
+      /* width: 100vw; */
+      /* background-color: red; */
+    }
+
+    .brief{
+      background-color: green;
+    }
+    .brief h1{
+      font-size: 40px;
+    }
+    .brief h3{
+      font-size: 30px;
+    }
+    .btn-box a{
+      width: 130px;
+      height: 60%;
+    }
+
+    .page {
+      padding: 20px;
+      margin: 0;
+    }
+/* ***************************** */
+    /* ABOUT SECTION  */
+  .me{
+    width: 100%;
+    height: auto;
+    /* background-color: purple; */
+  }
+  
+  .me p{
+    padding: 10px;
+    width: 100%;
+    line-height: 20px;
+    /* background-color: red; */
+  }
+  /* *********************** */
+  .image-container {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+  }
+  /* Each piece is 100×100 */
+  .piece {
+    width: 100px;
+    height: 100px;
+    background-size: 200px 200px;
+  }
+/* Top-right piece */
+  .top-right {
+    background-position: -100px 0;
+  }
+  /* Bottom-left piece */
+  .bottom-left {
+    background-position: 0 -100px;
+  }
+  /* Bottom-right piece */
+  .bottom-right {
+    background-position: -100px -100px;
+  }
+/* *************************8 */
+#Skills{
+  width: 95%;
+  
+}
+
+  
+}
