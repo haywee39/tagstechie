@@ -27,14 +27,14 @@
     margin: 0;
   }
   .content{
-    padding-top: 25vh;
+    /* padding-top: 25vh; */
     width: 100vw;
     height: auto;
     /* background-color: brown; */
   }
   
   .home{
-    margin-top: 10vh;
+    /* margin-top: 10vh; */
     width: 90vw;
     height: auto;
   }
@@ -106,6 +106,28 @@
   padding: 0;
   width: 90%;
 }
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* SKILLLS SECTION  */
+#Skills{
+  margin: 10px;
+  padding-top: 15px;
+  width: 95%;
+  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
+}
+.boxes{
+  padding: 10px;
+}
+
+.box{
+  margin: 20px;
+  width:100px;
+  height:100px; 
+}
+.box img{
+  width: 50px;
+  height: 50px;
+}
+
 
   
 } 
