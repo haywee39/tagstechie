@@ -1,43 +1,113 @@
-@media (width < 768px) {
-  .book {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    perspective: 2000px;
-    background: #ccc;
-    cursor: pointer;
-    overflow: hidden;     
+@media (width < 769px) {
+   /* Navigation buttons styling */
+   .nav-btn {
+    bottom: 10px;
+    border: none;
+    padding: 7px 13px;
+    font-size: normal;
+    margin: 0 15px;
   }
-  .page {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-   
+  
+  .nav-btn:disabled {
+    opacity: 0.3;
   }
-
+  .prev {
+    left: 5px;
+  }
+  .next {
+    right: 5px;
+  }
+  .instruction {
+    display: none;
+  }
+  .page{
+    width: 100vw;
+    padding: 0;
+    /* background-color: yellow; */
+    margin: 0;
+  }
+  .content{
+    padding-top: 25vh;
+    width: 100vw;
+    height: auto;
+    /* background-color: brown; */
+  }
+  
   .home{
-    width: 100vw;
-    height: 100vh;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    background-color: blue;
+    margin-top: 10vh;
+    width: 90vw;
+    height: auto;
   }
   .home-content{
-    /* max-width: 650px; */
-    width: 100vw;
-    height: 100vh;
-    display: block;
+    width: 100%;
+    height: auto;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: red;
   }
+  .brief, .home-sci, .btn-box{
+    width: 100%;
+    padding: 5px;
+    /* background-color: chartreuse; */
+  }
+  .brief h1 span{
+    font-size: normal;
+  }
+
+  .brief h3{
+    font-size: normal;
+  }
+
+  .brief p{
+    width: 100%;
+    padding: 0;
+  }
+  /* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
+.mypic {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+.piece {
+  /* position: absolute; */
+  width: 100px;
+  height: 100px;
+  background-size: 200px 200px;
+}
+
+.top-right {
+  background-position: -100px 0;
+}
+.bottom-left {
+  background-position: 0 -100px;
+}
+.bottom-right {
+  background-position: -100px -100px;
+}
+
+.btn-box a{
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 60%;
+  font-size: normal;
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* ABOUT SECTION  */
+.me{
+  width: 90%;
+  /* background-color: purple; */
+}
+
+.me .heading {
+  margin-top: 30px;
+}
+
+.me p{
+  padding-top: 10px;
+  padding: 0;
+  width: 90%;
+}
+
+  
 } 
   
   
