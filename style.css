@@ -96,7 +96,6 @@
     .nav-btn {
       position: absolute;
       bottom: 20px;
-      /* background: #00abf0; */
       background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
       border: none;
       color: white;
@@ -304,7 +303,7 @@
   height: 400px;
   border-radius: 200px;
   overflow: hidden;
-  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
+  /* background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  */
 }
 .piece {
   position: absolute;
@@ -437,7 +436,6 @@
   width:150px;
   height:150px;
   box-shadow:  antiquewhite 10px 10px 10px ;
-  /* background-color: ; */
   border-radius: 5px;
   padding-bottom: 10px;
   transform: scale(0.8);
@@ -468,13 +466,13 @@
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* PROJECTS  */
 /* STYLING FOR PROJECTS BEGINS HERE  */
-#Projects{
+.projects{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content:center;
-  width: 100vw;
-  height: 150vh;
+  width: 95%;
+  height: auto;
   color: white;
   text-align: center;
   /* background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  */
@@ -489,6 +487,7 @@
 }
 .project-images{
   display: flex;
+  margin-top: 20px;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
@@ -496,9 +495,9 @@
 }
 
 img{ 
-  width: 380px;
-  height: 250px;
-  border-radius: 10px;
+  width: 500px;
+  height: 350px;
+  border-radius: 6px;
   background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
 }
 
@@ -540,18 +539,25 @@ img{
   align-items: center;
   justify-content:center;
   text-align: center;
-  width: 370px;
-  height: 240px;
-  /* background-color: grey; */
+  width: 450px;
+  height: 300px;
+  border-radius: 6px;
   background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
   opacity: 0;
   color: white;
-  margin: 20px;
 }
 
 .child a{
   text-decoration: none;
   color: white;
+}
+.child h4{
+  font-size:30px;
+}
+
+.child p{
+  font-size: 18px;
+  width: 100%;
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */

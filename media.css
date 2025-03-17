@@ -1,11 +1,11 @@
 @media (width < 769px) {
-   /* Navigation buttons styling */
    .nav-btn {
     bottom: 10px;
     border: none;
     padding: 7px 13px;
     font-size: normal;
     margin: 0 15px;
+    margin-bottom: 20px;
   }
   
   .nav-btn:disabled {
@@ -23,20 +23,20 @@
   .page{
     width: 100vw;
     padding: 0;
-    /* background-color: yellow; */
     margin: 0;
+    /* background-color: yellow; */
   }
   .content{
-    /* padding-top: 25vh; */
     width: 100vw;
     height: auto;
+    /* padding-top: 25vh; */
     /* background-color: brown; */
   }
   
   .home{
-    /* margin-top: 10vh; */
     width: 90vw;
     height: auto;
+     /* margin-top: 10vh; */
   }
   .home-content{
     width: 100%;
@@ -67,7 +67,6 @@
   border-radius: 100px;
 }
 .piece {
-  /* position: absolute; */
   width: 100px;
   height: 100px;
   background-size: 200px 200px;
@@ -96,7 +95,6 @@
   width: 90%;
   /* background-color: purple; */
 }
-
 .me .heading {
   margin-top: 30px;
 }
@@ -117,7 +115,6 @@
 .boxes{
   padding: 10px;
 }
-
 .box{
   margin: 20px;
   width:100px;
@@ -126,6 +123,29 @@
 .box img{
   width: 50px;
   height: 50px;
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* PROJECTS SECTION  */
+img{ 
+  width: 350px;
+  height: 200px;
+  /* border-radius: 6px; */
+  /* background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  */
+}
+
+.child{
+  width: 300px;
+  height: 150px;
+ 
+}
+
+.child h4{
+  font-size:normal;
+}
+
+.child p{
+  font-size: normal;
+  /* width: 100%; */
 }
 
 
