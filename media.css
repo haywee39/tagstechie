@@ -126,23 +126,27 @@
 }
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* PROJECTS SECTION  */
+.projects{
+  width: 100%;
+  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
+}
 img{ 
-  width: 400px;
-  height: 350px;
+  width: 450px;
+  height: 330px;
 }
 
 .child{
-  width: 350px;
+  width: 400px;
   height: 300px;
  
 }
 
 .child h4{
-  font-size: 18px;
+  font-size: normal;
 }
 
 .child p{
-  font-size: 14px;
+  font-size: normal;
 }
 
 
