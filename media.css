@@ -127,25 +127,22 @@
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* PROJECTS SECTION  */
 img{ 
-  width: 350px;
-  height: 200px;
-  /* border-radius: 6px; */
-  /* background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  */
+  width: 400px;
+  height: 350px;
 }
 
 .child{
-  width: 300px;
-  height: 150px;
+  width: 350px;
+  height: 300px;
  
 }
 
 .child h4{
-  font-size:normal;
+  font-size: 18px;
 }
 
 .child p{
-  font-size: normal;
-  /* width: 100%; */
+  font-size: 14px;
 }
 
 
