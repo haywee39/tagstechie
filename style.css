@@ -17,7 +17,8 @@
       height: 100vh;
       position: relative;
       perspective: 2000px;
-      background: #ccc;
+      /* background: #ccc; */
+      background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
       cursor: pointer;
       overflow: hidden;     
     }
@@ -207,7 +208,7 @@
   .brief h3{
     position: relative;
     font-size: 35px;
-    color: #00abf0;
+    color: blue;
   }
 
   .brief p{
@@ -227,10 +228,10 @@
   width: 150px;
   height: 70%;
   background: transparent;
-  border: 2px solid #00abf0;
+  border: 2px solid blue;
   border-radius: 8px;
   font-size: 19px;
-  color: #00abf0;
+  color: blue;
   text-decoration: none;
   z-index: 1;
   overflow: hidden;
@@ -268,10 +269,10 @@
   width: 40px;
   height: 40px;
   background: transparent;
-  border: 2px solid #00abf0;
+  border: 2px solid blue; /*;#00abf0*/
   border-radius: 50%;
   font-size: 20px;
-  color: #00abf0;
+  color: blue;
   text-decoration: none;
   z-index: 1;
   overflow: hidden;
@@ -445,8 +446,8 @@
 
 .box:hover{
   transform: scale(0.9);
-  box-shadow: rgb(197, 69, 197) 10px 10px 10px;
-  background-color: purple; 
+  box-shadow: orangered 10px 10px 10px;
+  background-color: blue; 
 }
 
 .box img{
@@ -562,3 +563,120 @@ img{
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* CONTACT SECTION BEGINS HERE */
+#Contact{
+  /* background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%);  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  width: 95%;
+  height: auto; 
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&& */
+#list-cont {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: YELLOW; */
+}
+.left-container, .right-container {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: blue;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.left-serv, .right-serv {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
+  /* opacity: 0; */
+  /* transition: transform 1s ease, opacity 1s ease; */
+}
+
+.right-serv a, .left-serv a {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+.ile{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.message_me{
+  color: orange;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.lets_talk{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 100%;
+  border-radius: 6px;
+}
+
+form input{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 600px;
+  height: 50px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  padding-left: 15px;
+  
+}
+
+textarea{
+  width: 600px;
+  height: 50vh;
+  border-radius: 6px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+
+.submit{
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+  justify-content: center;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+}
+.submit:hover{
+  background-color: #00abf0;
+}

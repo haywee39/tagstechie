@@ -148,10 +148,32 @@ img{
 .child p{
   font-size: normal;
 }
-
-
   
 } 
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+/* CONTACTS SECTION  */
+#list-cont{
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+.right-container, .left-container {
+  width: 90%;
+  height: auto;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+
+.right-serv, .left-serv {
+  flex-direction: column;
+  width: 90%; /* Adjust width for smaller screens */
+  /* height: auto; Adjust height for content */
+  /* background-color: orange; */
+}
+
+/* ********************************* */
   
   
 /* ***************************** */
