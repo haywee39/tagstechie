@@ -143,7 +143,7 @@
       position: absolute;
       bottom: 10px;
       left: 50%;
-      color: orangered;
+      color: white;
       transform: translateX(-50%);
       padding: 5px 10px;
       border-radius: 5px;
@@ -404,7 +404,7 @@
   align-items: center;
   width: 70%;
   height: auto;
-  /* background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  */
+  /* background-color: blue; */
 }
 
 .me .heading {
@@ -425,7 +425,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  /* background-color: blue; */
+  /* background-color: red; */
 }
 
 .box{
@@ -434,10 +434,9 @@
   align-items: center;
   justify-content: center;
   margin: 15px;
- 
   width:150px;
   height:150px;
-  box-shadow:  antiquewhite 10px 10px 10px ;
+  box-shadow:  blue 10px 10px 10px ;    /* antiquewhite*/
   border-radius: 5px;
   padding-bottom: 10px;
   transform: scale(0.8);
@@ -447,7 +446,7 @@
 .box:hover{
   transform: scale(0.9);
   box-shadow: orangered 10px 10px 10px;
-  background-color: blue; 
+  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  
 }
 
 .box img{
@@ -469,6 +468,7 @@
 /* PROJECTS  */
 /* STYLING FOR PROJECTS BEGINS HERE  */
 .projects{
+  margin-top: 15px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -477,7 +477,7 @@
   height: auto;
   color: white;
   text-align: center;
-  /* background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  */
+  /* background-color: blue; */
 }
 .project_heading {
   padding-top: 40px;
@@ -489,7 +489,7 @@
 }
 .project-images{
   display: flex;
-  margin-top: 20px;
+  margin-top: 15px;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
@@ -499,8 +499,9 @@
 img{ 
   width: 500px;
   height: 350px;
-  border-radius: 6px;
+  border-radius: 5px;
   background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
+  box-shadow: blue 10px 10px 10px;
 }
 
 .project-images .parent > img{
@@ -564,50 +565,40 @@ img{
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* CONTACT SECTION BEGINS HERE */
-#Contact{
-  /* background: linear-gradient(to left,orange 1%, #081b29 50%, #343434 100%);  */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content:center;
-  width: 95%;
-  height: auto; 
-}
-/* &&&&&&&&&&&&&&&&&&&&&&&&& */
-#list-cont {
-  width: 90%;
+.list-cont {
+  width: 60%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-color: YELLOW; */
+  /* background-color: yellow; */
 }
-.left-container, .right-container {
+.left-container {
   margin: 15px;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 90%;
   height: auto;
   justify-content: space-evenly;
   align-items: center;
-  background-color: blue;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  /* background-color: blue; */
 }
 
-.left-serv, .right-serv {
-  margin: 10px;
+.left-serv{
+  margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 80%;
   height: auto;
-  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
-  /* opacity: 0; */
-  /* transition: transform 1s ease, opacity 1s ease; */
+  box-shadow: blue 10px 10px 10px;
+}
+.left-serv:hover{
+  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);
+  /* animation: fade-in linear;  */
 }
 
-.right-serv a, .left-serv a {
+.left-serv a {
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -622,61 +613,3 @@ img{
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
-
-
-.ile{
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-}
-
-.message_me{
-  color: orange;
-  font-size: 25px;
-  letter-spacing: 2px;
-}
-.lets_talk{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 65%;
-  height: 100%;
-  border-radius: 6px;
-}
-
-form input{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
-  width: 600px;
-  height: 50px;
-  border-radius: 6px;
-  border: none;
-  font-size: 14px;
-  padding-left: 15px;
-  
-}
-
-textarea{
-  width: 600px;
-  height: 50vh;
-  border-radius: 6px;
-  font-size: 15px;
-  padding-top: 10px;
-  padding-left: 15px;
-}
-
-.submit{
-  display: flex;
-  align-items: center;
-  width: 600px;
-  height: 50px;
-  justify-content: center;
-  background-color: orange;
-  color: white;
-  font-size: 16px;
-}
-.submit:hover{
-  background-color: #00abf0;
-}
