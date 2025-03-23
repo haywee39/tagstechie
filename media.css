@@ -29,14 +29,12 @@
   .content{
     width: 100vw;
     height: auto;
-    /* padding-top: 25vh; */
     /* background-color: brown; */
   }
   
   .home{
     width: 90vw;
     height: auto;
-     /* margin-top: 10vh; */
   }
   .home-content{
     width: 100%;
@@ -61,34 +59,34 @@
     padding: 0;
   }
   /* &&&&&&&&&&&&&&&&&&&&&&&&&&& */
-.mypic {
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-}
-.piece {
-  width: 100px;
-  height: 100px;
-  background-size: 200px 200px;
-}
+  .mypic {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+  }
+  .piece {
+    width: 100px;
+    height: 100px;
+    background-size: 200px 200px;
+  }
 
-.top-right {
-  background-position: -100px 0;
-}
-.bottom-left {
-  background-position: 0 -100px;
-}
-.bottom-right {
-  background-position: -100px -100px;
-}
+  .top-right {
+    background-position: -100px 0;
+  }
+  .bottom-left {
+    background-position: 0 -100px;
+  }
+  .bottom-right {
+    background-position: -100px -100px;
+  }
 
-.btn-box a{
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 60%;
-  font-size: normal;
-}
+  .btn-box a{
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 60%;
+    font-size: normal;
+  }
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 /* ABOUT SECTION  */
 .me{
@@ -128,7 +126,7 @@
 /* PROJECTS SECTION  */
 .projects{
   width: 100%;
-  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
+  /* background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  */
 }
 img{ 
   width: 450px;
@@ -138,7 +136,6 @@ img{
 .child{
   width: 400px;
   height: 300px;
- 
 }
 
 .child h4{
@@ -152,26 +149,31 @@ img{
 } 
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
-/* CONTACTS SECTION  */
-/* #list-cont{
-  width: 100vw;
-  height: auto;
-  flex-direction: column;
+/* CONTACT SECTION BEGINS HERE */
+.list-cont {
+  width: 100%;
+  /* background-color: yellow; */
 }
-.right-container, .left-container {
+.left-container {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.left-serv{
+  margin: 10px;
   width: 90%;
-  height: auto;
-  flex-direction: column;
+ 
+}
+.left-serv:hover{
+  background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);
 }
 
-.right-serv, .left-serv {
-  flex-direction: column;
-  width: 90%; 
-} */
-
-/* ********************************* */
-  
-  
+.left-serv a {
+  padding: 10px;
+  gap: 10px;
+}  
 /* ***************************** */
    
   

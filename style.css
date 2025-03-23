@@ -16,8 +16,7 @@
       width: 100vw;
       height: 100vh;
       position: relative;
-      perspective: 2000px;
-      /* background: #ccc; */
+      perspective: 3000px;
       background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
       cursor: pointer;
       overflow: hidden;     
@@ -37,9 +36,7 @@
       transition: transform 4s ease;
       padding: 30px;
       overflow-y: auto;
-      backface-visibility: hidden;  /* Prevents the backside from showing when flipped */
-      
-      
+      backface-visibility: hidden;  
     }
     .page.flipped {
       transform: rotateY(-180deg);
@@ -48,7 +45,7 @@
     /* &&&&&&&&&&&&&&&&&&& */
     /* Override for pages with long content (pages other than the welcome page) */
     .page:not(#page1) {
-    align-items: flex-start; /* Align content to the top */
+    align-items: flex-start;
     justify-content: center; 
     }
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
@@ -132,7 +129,6 @@
       transition: .5s;
       overflow: hidden;
     }
-
     .nav-btn:hover::before{
       width: 100%;
 
@@ -436,7 +432,7 @@
   margin: 15px;
   width:150px;
   height:150px;
-  box-shadow:  blue 10px 10px 10px ;    /* antiquewhite*/
+  box-shadow:  blue 10px 10px 10px ;
   border-radius: 5px;
   padding-bottom: 10px;
   transform: scale(0.8);
