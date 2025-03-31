@@ -41,10 +41,10 @@
     }
 
     // Click anywhere on the book (except on buttons) to flip forward
-    document.querySelector('.book').addEventListener('click', (e) => {
-      if (e.target.classList.contains('nav-btn')) return;
-      flipForward();
-    });
+    // document.querySelector('.book').addEventListener('click', (e) => {
+    //   if (e.target.classList.contains('nav-btn')) return;
+    //   flipForward();
+    // });
 
     // Navigation button events
     nextBtn.addEventListener('click', (e) => {

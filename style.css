@@ -2,7 +2,7 @@
       box-sizing: border-box;
       margin: 0;
       padding: 0;
-      font-family: 'poppins', sans-serif;  
+      font-family: 'poppins';  
     }
     body {
       display: flex;
@@ -18,7 +18,7 @@
       position: relative;
       perspective: 3000px;
       background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%); 
-      cursor: pointer;
+      /* cursor: pointer; */
       overflow: hidden;     
     }
     .page {
@@ -134,21 +134,6 @@
 
     }
 /* *************************** */
-    /* Instruction overlay styling */
-    .instruction {
-      position: absolute;
-      bottom: 10px;
-      left: 50%;
-      color: white;
-      transform: translateX(-50%);
-      padding: 5px 10px;
-      border-radius: 5px;
-      font-size: 14px;
-      z-index: 20;
-      /* background: orange; */
-    }
-
-
     /* &&&&&&&&&&&&&&&&&&&&& */
     /* STYLING FOR HOME BEGINS HERE  */
     .home{
