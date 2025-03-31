@@ -133,7 +133,21 @@
       width: 100%;
 
     }
+
 /* *************************** */
+/* Instruction overlay styling */
+.instruction {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  color: white;
+  transform: translateX(-50%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  z-index: 20;
+  /* background: orange; */
+}
     /* &&&&&&&&&&&&&&&&&&&&& */
     /* STYLING FOR HOME BEGINS HERE  */
     .home{
