@@ -398,7 +398,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 85%;
   height: auto;
   /* background-color: blue; */
 }
@@ -429,35 +429,99 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 15px;
+  margin: 25px;
   width:150px;
   height:150px;
-  box-shadow:  blue 10px 10px 10px ;
+  box-shadow:  blue 5px 5px 5px ;
   border-radius: 5px;
   padding-bottom: 10px;
-  transform: scale(0.8);
   transition: all 1s;
 }
 
 .box:hover{
-  transform: scale(0.9);
-  box-shadow: orangered 10px 10px 10px;
+  box-shadow: orangered 5px 5px 5px;
   background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);  
 }
 
 .box img{
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  
 }
+/* ANIMATION FOR THE SKILLS  */
+.box{
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+/* ********** */
+#box1{
+  animation-name: fade;
+}
+@keyframes fade {
+  0% {left: 0; opacity: 1;}
+  50%{left: 100px; opacity: 0;}
+  100%{left: 0; opacity: 1;}
+}
+/* ********** */
+#box2{
+  animation-name: rotate;
+}
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  25% {transform: rotate(25deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(-25deg)}
+  100%{transform: rotate(0deg)}
+}
+/* ********** */
+#box3{
+  animation-name: pulse;
+}
+@keyframes pulse {
+  0% {transform: scale(0.7);}
+  50%{transform: scale(1);}
+  100% {transform: scale(0.7)}
+}
+/* ********** */
+#box4{
+  animation-name: skewMove;
+}
+@keyframes skewMove{
+  0% {transform: skew(0deg);}
+  50%{transform: skew(20deg); left: 100px;}
+  100% {transform: skew(0deg);}
+}
+/* ********** */
+#box5{
+  animation-name: colorChange;
+}
+@keyframes colorChange {
+  0% {background-color: lightgoldenrodyellow;}
+  25% {background-color: lightgreen;}
+  50% {background-color: lightskyblue;}
+  75% {background-color:lightcoral;}
+  100%{background-color: rebeccapurple;}
+}
+/* ************** */
+#box6{
+  animation-name: bounce ;
+}
+@keyframes bounce {
+  0% {transform: translateY(0);}
+  50%{transform: translateY(-50px);}
+  100% {transform: translateY(0)}
+}
+/* ********** */
+#box7{
+  animation-name: multiTransform;
+}
+@keyframes multiTransform {
+  0%{transform: translateX(0) rotate(0deg) scale(1);}
+  50%{transform: translateX(50px) rotate(180deg) scale(1.2);}
+  0%{transform: translateX(0) rotate(360deg) scale(1);}
 
-.boxes .box > img{
-  scale: 1; opacity: 0;
-  animation: fade-in linear;
-  animation-timeline: view();
-  animation-range:contain 100px;
-}
-@keyframes fade-in {
-  to {scale: 1; opacity: 1;}
+  
 }
 
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
@@ -587,11 +651,11 @@ img{
   align-items: center;
   width: 80%;
   height: auto;
-  box-shadow: blue 10px 10px 10px;
+  box-shadow: blue 7px 7px 7px;
 }
+
 .left-serv:hover{
   background: linear-gradient(to right,orangered 10%, #343434 100%, #081b29 50%);
-  /* animation: fade-in linear;  */
 }
 
 .left-serv a {
