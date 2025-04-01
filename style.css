@@ -136,7 +136,7 @@
 
 /* *************************** */
 /* Instruction overlay styling */
-.instruction {
+/* .instruction {
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -146,8 +146,7 @@
   border-radius: 5px;
   font-size: 14px;
   z-index: 20;
-  /* background: orange; */
-}
+} */
     /* &&&&&&&&&&&&&&&&&&&&& */
     /* STYLING FOR HOME BEGINS HERE  */
     .home{
